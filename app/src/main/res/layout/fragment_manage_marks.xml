@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:background="@drawable/background_outline"
+        android:layout_margin="5dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:hint="@string/exam"
+            android:layout_margin="3dp"
+            app:boxBackgroundColor="@color/colorAccent"
+            android:textColorHint="@color/white">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/exam_dropdown"
+                tools:ignore="LabelFor"
+                android:textColor="@color/white"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:hint="@string/classcolumn"
+            android:layout_margin="3dp"
+            app:boxBackgroundColor="@color/colorAccent"
+            android:textColorHint="@color/white">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/class_dropdown"
+                tools:ignore="LabelFor"
+                android:textColor="@color/white"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:hint="@string/section"
+            android:layout_margin="3dp"
+            app:boxBackgroundColor="@color/colorAccent"
+            android:textColorHint="@color/white">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/section_dropdown"
+                tools:ignore="LabelFor"
+                android:textColor="@color/white"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:hint="@string/subject"
+            android:layout_margin="3dp"
+            app:boxBackgroundColor="@color/colorAccent"
+            android:textColorHint="@color/white">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject_dropdown"
+                tools:ignore="LabelFor"
+                android:textColor="@color/white"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </GridLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mm_recycle"
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>
+</layout>

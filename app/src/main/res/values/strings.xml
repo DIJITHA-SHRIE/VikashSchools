@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Vedanam</string>
+    <string name="app_name">Vikash</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
 
@@ -10,6 +10,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_subtitle_vikash">vikash@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -19,4 +20,28 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="attendance">Attendance</string>
+    <string name="admin">Admin</string>
+    <string name="parent">Parent</string>
+    <string name="teacher">Teacher</string>
+    <string name="classcolumn">Class</string>
+    <string name="subject">Subject</string>
+    <string name="section">Section</string>
+    <string name="manage_marks">ManageMarks</string>
+    <string name="exam">Exam</string>
+    <string name="exam_schedule">Exam Schedule</string>
+    <string name="homework">Home Work</string>
+    <string name="noticeboard">Notice Board</string>
+    <string name="slno">#</string>
+    <string name="id">ID</string>
+    <string name="stuname">Student Name</string>
+    <string name="marks">Marks</string>
+    <string-array name="from">
+        <item>From</item>
+    </string-array>
+    <string-array name="To">
+        <item>To</item>
+    </string-array>
+
+
 </resources>

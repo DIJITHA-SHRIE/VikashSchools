@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="3dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/slno"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/id"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/stuname"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/marks"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>
+</layout>

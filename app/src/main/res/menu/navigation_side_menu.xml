@@ -1,4 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@id/dashboard_menu"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_dashboard_24px"/>
+    <item
+        android:id="@+id/student_port_menu"
+        android:title="Student"
+        android:icon="@drawable/ic_person_24px"
+        android:visible="false"/>
+
+    <item
+        android:id="@id/homework_menu"
+        android:title="@string/homework"
+        android:icon="@drawable/ic_home_work_24px"/>
+    <item
+        android:id="@+id/teacher_menu"
+        android:title="Teacher"
+        android:icon="@drawable/ic_person_24px"
+        android:visible="false"/>
+    <item
+        android:id="@id/subject_menu"
+        android:title="Subject"
+        android:icon="@drawable/ic_library_books_24px"/>
+    <item
+        android:id="@+id/cr_menu"
+        android:title="Class Routine"
+        android:icon="@drawable/ic_grid_on_24px"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/sm_menu"
+        android:title="Study Material"
+        android:icon="@drawable/ic_library_books_24px"
+        android:visible="false"/>
+    <item
+        android:id="@+id/acaSyl_menu"
+        android:title="Academic Syllabus"
+        android:icon="@drawable/ic_grid_on_24px"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@id/attendance_menu"
+        android:title="Daily Attendance"
+        android:icon="@drawable/ic_present_to_all_24px"/>
+
+    <item
+        android:id="@id/manage_marks_menu"
+        android:title="@string/manage_marks"
+        android:icon="@drawable/ic_grid_on_24px"/>
+
+    <item
+        android:id="@id/exam_schedule_menu"
+        android:title="@string/exam_schedule"
+        android:icon="@drawable/ic_grid_on_24px"/>
+
+
+    <item
+        android:id="@+id/library_menu"
+        android:title="Library"
+        android:icon="@drawable/ic_library_books_24px"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/transport_menu"
+        android:title="Transport"
+        android:icon="@drawable/ic_360_24px"
+        android:visible="false"/>
+
+
+    <item
+        android:id="@id/noticeboard_menu"
+        android:title="@string/noticeboard"
+        android:icon="@drawable/ic_library_books_24px"/>
+
+
+    <item
+        android:id="@+id/message_menu"
+        android:title="Message"
+        android:icon="@drawable/ic_poll_24px"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/account_menu"
+        android:title="Account"
+        android:icon="@drawable/ic_sports_handball_24px"
+        android:visible="false"/>
+
+
+
+
+
+
+
+
+
+
 </menu>
